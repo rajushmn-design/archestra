@@ -69696,6 +69696,9 @@
                                 "usageLimitEntityType": {
                                   "type": "string"
                                 },
+                                "usageLimitEntityId": {
+                                  "type": "string"
+                                },
                                 "originalError": {
                                   "type": "object",
                                   "properties": {
@@ -70385,6 +70388,9 @@
                               "usageLimitEntityType": {
                                 "type": "string"
                               },
+                              "usageLimitEntityId": {
+                                "type": "string"
+                              },
                               "originalError": {
                                 "type": "object",
                                 "properties": {
@@ -71049,6 +71055,9 @@
                                 "type": "boolean"
                               },
                               "usageLimitEntityType": {
+                                "type": "string"
+                              },
+                              "usageLimitEntityId": {
                                 "type": "string"
                               },
                               "originalError": {
@@ -71756,6 +71765,9 @@
                                 "type": "boolean"
                               },
                               "usageLimitEntityType": {
+                                "type": "string"
+                              },
+                              "usageLimitEntityId": {
                                 "type": "string"
                               },
                               "originalError": {
@@ -73932,6 +73944,9 @@
                               "usageLimitEntityType": {
                                 "type": "string"
                               },
+                              "usageLimitEntityId": {
+                                "type": "string"
+                              },
                               "originalError": {
                                 "type": "object",
                                 "properties": {
@@ -74963,6 +74978,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -76587,6 +76605,9 @@
                               "usageLimitEntityType": {
                                 "type": "string"
                               },
+                              "usageLimitEntityId": {
+                                "type": "string"
+                              },
                               "originalError": {
                                 "type": "object",
                                 "properties": {
@@ -77277,6 +77298,9 @@
                               "usageLimitEntityType": {
                                 "type": "string"
                               },
+                              "usageLimitEntityId": {
+                                "type": "string"
+                              },
                               "originalError": {
                                 "type": "object",
                                 "properties": {
@@ -77957,6 +77981,9 @@
                                 "type": "boolean"
                               },
                               "usageLimitEntityType": {
+                                "type": "string"
+                              },
+                              "usageLimitEntityId": {
                                 "type": "string"
                               },
                               "originalError": {
@@ -78649,6 +78676,9 @@
                                 "type": "boolean"
                               },
                               "usageLimitEntityType": {
+                                "type": "string"
+                              },
+                              "usageLimitEntityId": {
                                 "type": "string"
                               },
                               "originalError": {
@@ -94372,6 +94402,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -95232,6 +95265,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -95800,6 +95836,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -96230,6 +96269,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -96673,6 +96715,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -98941,6 +98986,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -99382,6 +99430,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -99827,6 +99878,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -100268,6 +100322,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -100713,6 +100770,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -101154,6 +101214,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -101599,6 +101662,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -102042,6 +102108,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -102474,6 +102543,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -102904,6 +102976,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -103349,6 +103424,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -103792,6 +103870,9 @@
                                         "usageLimitEntityType": {
                                           "type": "string"
                                         },
+                                        "usageLimitEntityId": {
+                                          "type": "string"
+                                        },
                                         "originalError": {
                                           "type": "object",
                                           "properties": {
@@ -104233,6 +104314,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -104902,6 +104986,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -105762,6 +105849,9 @@
                                           "type": "boolean"
                                         },
                                         "usageLimitEntityType": {
+                                          "type": "string"
+                                        },
+                                        "usageLimitEntityId": {
                                           "type": "string"
                                         },
                                         "originalError": {
@@ -107699,6 +107789,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -108559,6 +108652,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -109127,6 +109223,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -109557,6 +109656,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -110000,6 +110102,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -112268,6 +112373,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -112709,6 +112817,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -113154,6 +113265,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -113595,6 +113709,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -114040,6 +114157,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -114481,6 +114601,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -114926,6 +115049,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -115369,6 +115495,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -115801,6 +115930,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -116231,6 +116363,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -116676,6 +116811,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -117119,6 +117257,9 @@
                                   "usageLimitEntityType": {
                                     "type": "string"
                                   },
+                                  "usageLimitEntityId": {
+                                    "type": "string"
+                                  },
                                   "originalError": {
                                     "type": "object",
                                     "properties": {
@@ -117560,6 +117701,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -118229,6 +118373,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -119089,6 +119236,9 @@
                                     "type": "boolean"
                                   },
                                   "usageLimitEntityType": {
+                                    "type": "string"
+                                  },
+                                  "usageLimitEntityId": {
                                     "type": "string"
                                   },
                                   "originalError": {
@@ -140646,6 +140796,10 @@
                               "failed"
                             ]
                           },
+                          "embeddingError": {
+                            "nullable": true,
+                            "type": "string"
+                          },
                           "assignedAgents": {
                             "type": "array",
                             "items": {
@@ -141419,6 +141573,10 @@
                         "failed"
                       ]
                     },
+                    "embeddingError": {
+                      "nullable": true,
+                      "type": "string"
+                    },
                     "assignedAgents": {
                       "type": "array",
                       "items": {
@@ -141827,6 +141985,10 @@
                         "completed",
                         "failed"
                       ]
+                    },
+                    "embeddingError": {
+                      "nullable": true,
+                      "type": "string"
                     },
                     "assignedAgents": {
                       "type": "array",
@@ -190177,6 +190339,9 @@
                                 "type": "boolean"
                               },
                               "usageLimitEntityType": {
+                                "type": "string"
+                              },
+                              "usageLimitEntityId": {
                                 "type": "string"
                               },
                               "originalError": {

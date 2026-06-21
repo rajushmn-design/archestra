@@ -20087,6 +20087,7 @@ export type GetChatConversationsResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -20240,6 +20241,7 @@ export type CreateChatConversationResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -20475,6 +20477,7 @@ export type GetChatConversationResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -20632,6 +20635,7 @@ export type UpdateChatConversationResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -21134,6 +21138,7 @@ export type ForkChatConversationResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -21388,6 +21393,7 @@ export type CompactChatConversationResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -21812,6 +21818,7 @@ export type GetSharedConversationResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -21965,6 +21972,7 @@ export type ForkSharedConversationResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -22120,6 +22128,7 @@ export type GenerateChatConversationTitleResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -22274,6 +22283,7 @@ export type UpdateChatMessageResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -26927,6 +26937,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -27116,6 +27127,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -27211,6 +27223,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -27282,6 +27295,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -27355,6 +27369,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -27826,6 +27841,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -27899,6 +27915,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -27972,6 +27989,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28045,6 +28063,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28118,6 +28137,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28191,6 +28211,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28264,6 +28285,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28337,6 +28359,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28408,6 +28431,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28479,6 +28503,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28552,6 +28577,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28625,6 +28651,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28698,6 +28725,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -28838,6 +28866,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -29027,6 +29056,7 @@ export type GetInteractionsResponses = {
                     spanId?: string;
                     usageLimitExceeded?: boolean;
                     usageLimitEntityType?: string;
+                    usageLimitEntityId?: string;
                     originalError?: {
                         provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                         status?: number;
@@ -29517,6 +29547,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -29706,6 +29737,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -29801,6 +29833,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -29872,6 +29905,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -29945,6 +29979,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30416,6 +30451,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30489,6 +30525,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30562,6 +30599,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30635,6 +30673,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30708,6 +30747,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30781,6 +30821,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30854,6 +30895,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30927,6 +30969,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -30998,6 +31041,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -31069,6 +31113,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -31142,6 +31187,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -31215,6 +31261,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -31288,6 +31335,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -31428,6 +31476,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -31617,6 +31666,7 @@ export type GetInteractionResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
@@ -36941,6 +36991,7 @@ export type GetKnowledgeFilesResponses = {
             processingStatus: 'pending' | 'processing' | 'completed' | 'failed';
             processingError: string | null;
             embeddingStatus: 'pending' | 'processing' | 'completed' | 'failed';
+            embeddingError?: string | null;
             assignedAgents: Array<{
                 id: string;
                 name: string;
@@ -37234,6 +37285,7 @@ export type GetKnowledgeFileResponses = {
         processingStatus: 'pending' | 'processing' | 'completed' | 'failed';
         processingError: string | null;
         embeddingStatus: 'pending' | 'processing' | 'completed' | 'failed';
+        embeddingError?: string | null;
         assignedAgents: Array<{
             id: string;
             name: string;
@@ -37341,6 +37393,7 @@ export type UpdateKnowledgeFileResponses = {
         processingStatus: 'pending' | 'processing' | 'completed' | 'failed';
         processingError: string | null;
         embeddingStatus: 'pending' | 'processing' | 'completed' | 'failed';
+        embeddingError?: string | null;
         assignedAgents: Array<{
             id: string;
             name: string;
@@ -50024,6 +50077,7 @@ export type CreateScheduleTriggerRunConversationResponses = {
                 spanId?: string;
                 usageLimitExceeded?: boolean;
                 usageLimitEntityType?: string;
+                usageLimitEntityId?: string;
                 originalError?: {
                     provider?: 'openai' | 'gemini' | 'anthropic' | 'bedrock' | 'cohere' | 'cerebras' | 'mistral' | 'perplexity' | 'groq' | 'xai' | 'openrouter' | 'vllm' | 'ollama' | 'zhipuai' | 'deepseek' | 'minimax' | 'azure';
                     status?: number;
